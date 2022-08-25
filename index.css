@@ -1,0 +1,51 @@
+/* Styling for markdown previewer */
+
+/* Import google fonts */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+
+body { font-family: 'Lato';}
+h1, h2, h3 {
+  font-family: 'Lato';
+  font-weight: bolder;
+}
+.remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+
+.remark-slide>.full-width {
+  width: 100%;
+  padding: 0 !important;
+}
+
+.remark-slide>.definition {
+  font-size: 2rem;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  width: 100%;
+}
+/* Table content margin top bottom 0.5rem */
+td, th {
+  padding: 0.5rem;
+}
+
+/* Images flex center*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/* Logo in upper right on top*/
+.logo {
+  float: right;
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  width: 200px;
+
+}
+
